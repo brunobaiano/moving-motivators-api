@@ -1,0 +1,11 @@
+cloud:
+  aws:
+    credentials:
+      access-key: ${AWS_ACCESS_KEY}
+      secret-key: ${AWS_SECRET_KEY}
+    region:
+      static: ${AWS_REGION}
+      auto: false
+application:
+  bucket:
+    name: ${AWS_BUCKET_NAME}
